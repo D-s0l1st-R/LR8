@@ -1,0 +1,71 @@
+/* Стили для меню */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(125, 47, 106); /* Золотая панель меню */
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Стили для основного контента */
+.content {
+    padding: 20px;
+}
+
+/* Оформление блоков */
+body {
+    background-color: #03417e; /* Синий фон */
+}
+
+h1, h2 {
+    color: rgb(48, 216, 10); /* Золотой цвет для заголовков */
+}
+
+p {
+    background-color: #ccc; /* Серый фон для параграфов */
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Стили для блоков о героях */
+.hero {
+    display: flex; /* Используем flexbox для управления расположением элементов */
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.hero img {
+    width: 150px; /* Устанавливаем ширину изображения */
+    margin-right: 20px; /* Отступ справа для изображения */
+}
+
+.hero-description {
+    flex-grow: 1; /* Занимаем оставшееся пространство */
+}
+
+.hero-description h3 {
+    color: rgb(255, 43, 43); /* Золотой цвет для заголовка */
+}
+
+.hero-description p {
+    background-color: #ccc; /* Серый фон для описания */
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
